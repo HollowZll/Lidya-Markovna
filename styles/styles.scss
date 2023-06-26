@@ -12,10 +12,51 @@ $font: 'Nunito Sans', sans-serif;
     font-family: $font;
 }
 
+h1 {
+    font-size: 45px;
+}
+
 
 #title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 30px;
+}
+
+#main {
+    background-color: $color-2;
+    height: 100%;
+    width: 100%;
+}
+
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-1;
+    border-radius: 30px;
+}
+
+
+#image {
+    height: 500px;
+    max-width: 450px;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 4px solid $color-2;
+    margin: 20px;
+}
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tribute-link {
+    :target
 }
