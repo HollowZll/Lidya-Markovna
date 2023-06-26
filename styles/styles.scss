@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;500;700&display=swap');
+
+$color-1: rgb(155, 171, 184);
+$color-2: rgb(238, 227, 203);
+$color-3: rgb(215, 192, 174);
+$color-4: rgb(150, 126, 118);
+$font: 'Nunito Sans', sans-serif;
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: $font;
+}
+
+
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
